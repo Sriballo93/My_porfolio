@@ -151,8 +151,13 @@
 
   .sr-name-container, .sr-name-container>h1{
     width: 100%;
-    font-size:3.5rem;
-    text-align: justify;
+
+  }
+
+  .sr-name-container>h1{
+    width: 100%;
+    font-size:2.5rem;
+   
   }
   
 
