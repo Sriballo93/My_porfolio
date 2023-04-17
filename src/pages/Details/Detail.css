@@ -6,6 +6,13 @@
   justify-content: center;
 }
 
+.detail-h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .sr-detail {
   display: flex;
   gap: 1rem;
@@ -29,7 +36,7 @@
 }
 
 .right-section > p {
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: justify;
   align-self: last baseline;
 }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 main {
   min-height: 70vh;
   width: 100%;
@@ -12,6 +13,8 @@ main {
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
+
+
 
 @keyframes fade-in {
   from {
@@ -38,7 +41,7 @@ main {
   --sr-gap: 2rem;
   --sr-font-title: 2rem;
   --sr-font-size: 1rem;
-  --sr-font-family: 'Coolvetica', sans serif;
+  --sr-font-family: 'Fjalla One', sans serif;
 }
 
 * {

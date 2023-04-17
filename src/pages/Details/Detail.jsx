@@ -27,7 +27,7 @@ const Detail = () => {
           <section className="left-section">
             <h1 className="detail-h3">
               {detail.title}
-              <span>-</span> {detail.year}
+              <span> - </span> {detail.year}
             </h1>
             <h6>{detail.technologies}</h6>
 
