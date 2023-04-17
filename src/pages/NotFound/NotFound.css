@@ -1,0 +1,31 @@
+
+.sr-main-home{
+    position: relative;
+    top: 3.4rem;
+    padding: 2rem 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color:#0b161aa6;
+  }
+
+  .sr-not{
+    width: 400px;
+    height: 300px;
+  }
+
+
+@media (max-width: 400px) {
+    .sr-main-home{
+      position: relative;
+      top: 6.4rem;
+      padding: 2rem 2rem;
+      align-items: center;
+      justify-content: center;
+      background-color:#0b161aa6;
+    }
+  
+   
+    
+  
+  
+  }

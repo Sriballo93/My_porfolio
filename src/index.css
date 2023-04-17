@@ -1,0 +1,74 @@
+main {
+  min-height: 70vh;
+  width: 100%;
+  position: relative;
+  top: 5.4rem;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+
+  transform: translateY(-50px);
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('../public/coolvetica\ condensed\ rg.otf');
+}
+
+:root {
+  --sr-color-background: #0b161a;
+  --sr-color-primary: #f0f0ec;
+  --sr-color-secondary: #000000;
+  --sr-color-highligth: #41aab1;
+
+  --sr-gap: 2rem;
+  --sr-font-title: 2rem;
+  --sr-font-size: 1rem;
+  --sr-font-family: 'Coolvetica', sans serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.6rem;
+  font-family: var(--sr-font-family);
+  color: var(--sr-color-primary);
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: var(--sr-color-background);
+  background-image: url(https://res.cloudinary.com/dg2xjawnt/image/upload/v1681491012/porfolio-sr/sebastian_riballo_1_ozlihv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}

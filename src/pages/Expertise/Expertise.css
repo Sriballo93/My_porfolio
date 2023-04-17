@@ -1,0 +1,28 @@
+.sr-exp-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sr-exp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+  bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+@media (max-width: 400px) {
+  .sr-main-exper{
+    position: relative;
+    top: 6.4rem;
+    padding: 2rem 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color:#0b161aa6;
+  }
+}

@@ -1,0 +1,35 @@
+.sr-work-video {
+  height: 300px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 2px solid var(--sr-color-highligth);
+}
+
+.sr-video-container {
+  background-color: rgba(215, 249, 250, 0.11);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.sr-video {
+  height: 140px;
+  width: 90%;
+}
+
+.sr-work-video > h5 {
+  align-self: flex-start;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.sr-work-video > p {
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  align-self: flex-start;
+}
